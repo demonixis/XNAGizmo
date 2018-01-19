@@ -1,0 +1,22 @@
+XNA 3D Gizmo component. (XNA 4.0)
+
+This beta release features a completely new Gizmo. It supports both local and world transformations and is much cleaner and more
+intuitive than the previous release.
+
+Along with the GizmoComponent.cs there are a few essential classes (BoundingOrientedBox.cs and Quad.cs) These classes are available
+in the sample/source-code and have been taken from other XNA Samples. These classes are used in  the GizmoComponent and are required.
+
+In the "Framework" folder you'll find several classes including input managers that are used by the component but can relatively easy
+be replaced by your own editor/framework code. I've tried to keep them as non-intrusive if possible, however I can't fully predict
+everyones coding habits, so some re-work may be required if you're going to hook your own input on the gizmo.
+
+Credit is due for Sean James (MouseDevice.cs) and XNA CC for Quad.cs/BoundingOrientedBox.cs
+
+I hope this component will be of good use to you if you're working on your own editor...
+
+If you have any feedback or suggestions, please feel free to let me know on Codeplex or on my Blog. I'd like to make this component
+as complete and painless to implement as possible!
+
+-------------------------------------------
+
+The most recent version can be found on Codeplex (Source-Code tab) 
